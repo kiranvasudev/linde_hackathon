@@ -7,6 +7,13 @@
 * constructing and training a model for each group of tanks
 * Predicting using the trained models
 
+## Preprocessing
+
+* Adding a new feature called Sensor status that gives information whether the sensor is down or not.
+* Deals with random 0s in the timestamp
+* Dealing with sharp changes in the tank level readings
+* Visualization
+
 ## Classification of tanks (final_deli_freq_calc.ipynb)
 
 * Having a model for every tank is too costly in all means like memory and computation
