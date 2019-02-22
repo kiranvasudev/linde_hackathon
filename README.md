@@ -7,7 +7,7 @@
 * constructing and training a model for each group of tanks
 * Predicting using the trained models
 
-## Preprocessing
+## Preprocessing (Preprocessing.ipnyb)
 
 * Adding a new feature called Sensor status that gives information whether the sensor is down or not.
 * Deals with random 0s in the timestamp
@@ -43,3 +43,5 @@
 * The output of the selected model gives the difference and direction
 * Instead of adding the difference to previous value we add it to the reading which is recorded 10 days back (this value is available in the given data)
 * Addition of the difference to 10 days back value gives us the new prediction
+
+## RNN with the use of multiple previous data points (LINDE_Large_Window_Prediction.ipynb)
